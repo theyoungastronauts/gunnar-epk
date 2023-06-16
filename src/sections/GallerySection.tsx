@@ -11,6 +11,7 @@ const imageUrls = [
     '/images/gallery/gallery-6.jpg',
 ];
 
+const downloadUrl = "https://firebasestorage.googleapis.com/v0/b/gunnar-gehl.appspot.com/o/GunnarHighResPhotos.zip?alt=media&token=4e477ceb-afd4-46e5-ba96-de22d24fed32"
 
 const GallerySection = () => {
     return (
@@ -25,7 +26,7 @@ const GallerySection = () => {
                 <div className="py-2"></div>
 
                 <Wrapper>
-                    <Link href={"#"} download={"gunnar.zip"} className="default-link">Download Photos</Link>
+                    <a href={downloadUrl} download={"GunnarHighResPhotos.zip"} target='_blank' className="default-link">Download Photos</a>
                 </Wrapper>
 
             </section>

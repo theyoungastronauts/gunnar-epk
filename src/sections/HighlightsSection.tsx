@@ -28,7 +28,7 @@ const HighlightsSection = () => {
                         })}
                     </ul>
                     <div className="py-3"></div>
-                    <div className={styles.placeholder}></div>
+                    <iframe style={{ width: '100%' }} src="https://player.vimeo.com/video/829627834?h=05210167aa" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
 
                     <div className="py-1"></div>
 
