@@ -1,0 +1,32 @@
+
+
+.slider {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; 
+
+}
+
+.slide {
+    position: relative;
+    margin-right: 12px;
+    img {
+        height: 100%;
+        width: auto;
+    }
+
+    &:first-child {
+        margin-left: 16px;
+    }
+
+    &:last-child {
+        margin-right: 16px;
+    }
+}

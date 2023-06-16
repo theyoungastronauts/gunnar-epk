@@ -1,0 +1,13 @@
+@import "./colors.scss";
+
+@mixin fontDefault() {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    color: $colorText;
+}
+
+@mixin fontHeading() {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: $colorHeading;
+}

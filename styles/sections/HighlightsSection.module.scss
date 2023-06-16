@@ -1,0 +1,19 @@
+
+
+.ul {
+   margin: 0;
+   padding: 0; 
+   margin-left: 16px;
+
+   li {
+    font-size: 14px;
+    line-height: 21px;
+    list-style-image: url(/images/bullet.svg);
+    padding: 8px 0;
+   }
+}
+
+.placeholder {
+    background-color: #262523;
+    aspect-ratio: 16/9;
+}

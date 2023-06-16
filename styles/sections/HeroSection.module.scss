@@ -1,0 +1,33 @@
+@import "../colors.scss";
+
+.logo {
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  .subtitle {
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+  
+    color: #EAEAEA;
+  
+    max-width: 316px;
+    margin: 0 auto;
+  
+    span {
+      color: $colorAccent;
+      font-weight: bold;
+    }
+  
+  }
+  
+  .photo {  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }

@@ -1,0 +1,40 @@
+
+@import "../colors.scss";
+
+.socialItem {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    img {
+        width:22px;
+        height: 22px; 
+        object-fit: contain;
+    }
+}
+
+.count {
+    font-size: 21px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 6px;
+    text-transform: uppercase;
+
+}
+
+.label {
+    font-size: 10px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}

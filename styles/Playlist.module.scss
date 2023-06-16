@@ -1,0 +1,28 @@
+@import "./colors.scss";
+
+.playlistCard {
+    height: 590px;
+    background-color: $colorText;
+    padding: 16px;
+    width: 308px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    h3{
+        color: #000;
+    }
+
+    p {
+        span{
+            color: #000;
+            display: block;
+            font-size: 14px;
+            line-height: 21px;
+        }
+    }
+
+
+}

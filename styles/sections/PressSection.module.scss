@@ -1,0 +1,25 @@
+@import "../colors.scss";
+
+
+.pressItem{
+
+    width: 308px;
+    height: 243px;
+    background-color: $colorText;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p, cite{
+        color: #000;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    cite {
+        font-weight: bold;
+        font-style: normal;
+    }
+}
