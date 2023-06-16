@@ -11,35 +11,35 @@ const items = [
         icon: "/images/socials/instagram.svg",
         count: "132k",
         label: "followers",
-        url: "#"
+        url: "https://www.instagram.com/gunnar/"
     },
     {
         platform: "Twitter",
         icon: "/images/socials/twitter.svg",
         count: "10k",
         label: "followers",
-        url: "#"
+        url: "https://twitter.com/gunnargehl"
     },
     {
         platform: "TikTok",
         icon: "/images/socials/tiktok.svg",
         count: "250k",
         label: "followers",
-        url: "#"
+        url: "https://www.tiktok.com/@gunnargehl"
     },
     {
         platform: "YouTube",
         icon: "/images/socials/youtube.svg",
         count: "5.6M",
         label: "Views",
-        url: "#"
+        url: "https://www.youtube.com/channel/UCvisVWHgj1C46QO_JKH7cjA"
     },
     {
         platform: "Spotify",
         icon: "/images/socials/spotify.svg",
         count: "153K",
         label: "Listeners",
-        url: "#"
+        url: "https://open.spotify.com/artist/3o4OtMGLmvvLSx19ZjtuSn?si=V8E_mwKbTZiltuJFbtauzw&nd=1"
     }
 ]
 
@@ -56,7 +56,7 @@ const SocialsSection = () => {
 
                         {items.map((item, i) => {
                             return (
-                                <a key={i} className={styles.socialItem} href={item.url}>
+                                <a key={i} className={styles.socialItem} href={item.url} target='_blank'>
                                     <div className={styles.icon}><img src={item.icon} alt={item.platform} /></div>
                                     <div className={styles.count}>{item.count}</div>
                                     <div className={styles.label}>{item.label}</div>

@@ -22,6 +22,8 @@ const BioPage: NextPage = () => {
 
                 <BioSection isExpanded />
 
+                <div className="py-3"></div>
+
             </main>
         </>
     )
