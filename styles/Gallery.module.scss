@@ -12,6 +12,9 @@
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar; 
 
+  
+      
+
 }
 
 .slide {
@@ -24,9 +27,16 @@
 
     &:first-child {
         margin-left: 16px;
+
+        @media screen and (min-width: 768px) {
+            margin-left: 32px;
+        }
     }
 
     &:last-child {
         margin-right: 16px;
+        @media screen and (min-width: 768px) {
+            margin-right: 32px;
+        }
     }
 }
