@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 
         <MusicAndVideosSection />
 
-        <div className="py-4"></div>
+        <div className="py-2"></div>
 
         <SocialsSection />
 
