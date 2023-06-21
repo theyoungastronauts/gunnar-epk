@@ -34,7 +34,7 @@ const HighlightsSection = () => {
 
                     <div className="d-flex justify-content-between align-items-center">
                         <h3>Performance Reel</h3>
-                        <a href="#" target='_blank' className='default-link'>Watch</a>
+                        <a href="https://vimeo.com/829627834/05210167aa" target='_blank' className='default-link'>Watch</a>
                     </div>
 
                     <div className="py-3"></div>
