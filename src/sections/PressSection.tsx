@@ -24,10 +24,10 @@ const pressItems = [
         body: "Capturing the free-flowing energy and raw vitality of his live set, it’s an album filled with feverish guitar solos, sing-along-ready choruses, and soulful vocals, marking a vibrant new chapter for the California native.",
         from: "Ticketmaster",
     },
-    // {
-    //     body: "The new King of Rock and Roll…this kid can sing, he can dance, and - holy s**t* - he can play. Hitting his notes with perfection like a euphoric guitar hero. Watching GUNNAR was like watching Elvis Presley reincarnated, but with a modern swing…it was as if the King of Rock and Roll himself had found his way back to stages - but better than ever.",
-    //     from: "Daily Express",
-    // },
+    {
+        body: "The new King of Rock and Roll…this kid can sing, he can dance, and - holy s**t* - he can play. Hitting his notes with perfection like a euphoric guitar hero. Watching GUNNAR was like watching Elvis Presley reincarnated.",
+        from: "Daily Express",
+    },
 
 ];
 
