@@ -28,13 +28,13 @@ const HighlightsSection = () => {
                         })}
                     </ul>
                     <div className="py-3"></div>
-                    <iframe style={{ width: '100%' }} src="https://player.vimeo.com/video/829627834?h=05210167aa" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
-
+                    {/* <iframe style={{ width: '100%' }} src="https://player.vimeo.com/video/829627834?h=05210167aa" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe> */}
+                    <iframe style={{ width: '100%' }} width="560" height="315" src="https://www.youtube.com/embed/-YihZ-TgnA8" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>
                     <div className="py-1"></div>
 
                     <div className="d-flex justify-content-between align-items-center">
                         <h3>Performance Reel</h3>
-                        <a href="https://vimeo.com/829627834/05210167aa" target='_blank' className='default-link'>Watch</a>
+                        <a href="https://www.youtube.com/watch?v=-YihZ-TgnA8" target='_blank' className='default-link'>Watch</a>
                     </div>
 
                     <div className="py-3"></div>
