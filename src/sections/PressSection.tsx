@@ -28,6 +28,10 @@ const pressItems = [
         body: "The rising start to have on your radar right now",
         from: "Wonderland Magazine"
     },
+    {
+        body: "With an innate ability to evoke raw emotions through his music, GUNNAR has become a force to be reckoned with.",
+        from: "Vingt Sept Magazine"
+    },
 
 
 ];

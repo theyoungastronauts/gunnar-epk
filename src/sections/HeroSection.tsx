@@ -15,7 +15,7 @@ const HeroSection = () => {
                     <div className="py-1"></div>
 
                     <p className={styles.subtitle}>
-                        *Now on tour now with <span>Maroon 5</span> (UK & Europe) and <span>The Hu</span> (Europe)
+                        *Recently direct support for <span>Maroon 5</span> (UK & Europe), <span>The Hu</span> (Europe), <span>Gwen Stefani</span> and <span>Dead Poet Society</span>
                     </p>
 
                     <div className="py-2"></div>

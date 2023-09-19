@@ -15,7 +15,7 @@ const ContactSection = () => {
                     <div className="py-2"></div>
 
                     <h3>Management:</h3>
-                    <h3><a href="mailto:dw@scooterbraun.com" className='text-white'>dw@scooterbraun.com</a></h3>
+                    <h3><a href="mailto:david@gunnarmusic.com" className='text-white'>david@gunnarmusic.com</a></h3>
                     <div className="py-2"></div>
 
                     <h3>Agent:</h3>

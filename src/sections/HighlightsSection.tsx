@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 
 const highlightItems = [
-    "Direct support for Maroon 5, The Hu and Dead Poet Society for Europe 2023 tours",
+    "Direct support for Maroon 5, Gwen Stefani, The Hu and Dead Poet Society",
     "Completed three tours in North America playing over 50 dates",
     "Performed opening night of SXSW 2022",
     "Rock Band 4 video game placement for “Bad Idea”",
@@ -58,9 +58,17 @@ const HighlightsSection = () => {
 
                     <h3>Brand Deals:</h3>
                     <div className="py-3"></div>
-                    <div className="d-flex justify-content-between align-items-end">
+                    <div className="d-md-flex d-none justify-content-between align-items-end">
                         <Image src={'/images/brands/inkbox.png'} alt='inkbox' width={155} height={29} />
                         <Image src={'/images/brands/calirosa.png'} alt='calirosa' width={127} height={58} />
+
+                        <Image src={'/images/brands/rockband.webp'} alt='rockband' width={150} height={78} style={{ position: 'relative', top: 16 }} />
+                    </div>
+
+                    <div className="d-md-none d-flex flex-column justify-content-between align-items-center">
+                        <Image src={'/images/brands/inkbox.png'} alt='inkbox' width={155 * 1.5} height={29 * 1.5} />
+                        <Image src={'/images/brands/calirosa.png'} alt='calirosa' width={127 * 1.5} height={58 * 1.5} />
+                        <Image src={'/images/brands/rockband.webp'} alt='rockband' width={150 * 1.5} height={78 * 1.5} style={{ position: 'relative', top: 12 }} />
                     </div>
                 </Wrapper>
 
