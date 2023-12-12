@@ -5,6 +5,10 @@ import styles from '../../styles/sections/PressSection.module.scss'
 
 const pressItems = [
     {
+        body: "Night after night, he felt empowered while delivering mesmerizing guitar riffs and truthful lyrics. He was the rock star he’d wanted to be, not the popstar others projected unto him.",
+        from: "TMRW Magazine",
+    },
+    {
         body: "Capturing the free-flowing energy and raw vitality of his live set, it’s an album filled with feverish guitar solos, sing-along-ready choruses, and soulful vocals, marking a vibrant new chapter for the California native.",
         from: "Ticketmaster",
     },

@@ -11,6 +11,7 @@ const highlightItems = [
     "Performed opening night of SXSW 2022",
     "Rock Band 4 video game placement for “Bad Idea”",
     "22M global streams and views across all platforms",
+    "Performed for Jingle Ball LA and Jinge Ball DC",
 ]
 
 
@@ -45,9 +46,9 @@ const HighlightsSection = () => {
 
                 </Wrapper>
 
-                <Gallery height={590}>
-                    <Playlist image='/images/playlists/spotify.jpg' platform='Spotify' items={['New Music Friday', 'New Noise', 'Fresh Finds Rock', 'The New Alt', 'Spotify Wrapped: Fresh Finds Rock', 'All New Rock', 'Rock The World', 'Hangover Friendly Rock', 'Top of the Rock', 'life sucks…i need some rock!']} />
-                    <Playlist image='/images/playlists/apple.jpg' platform='Apple Music' items={["Apple Rock New Releases", "New Music Daily", "New in Rock", "Amped Up", "Breaking Rock", "The Best New Music (Shazam)"]} />
+                <Gallery height={600}>
+                    <Playlist image='/images/playlists/spotify.jpg' platform='Spotify' items={['New Music Friday', 'New Noise', 'Fresh Finds Rock', 'The New Alt', 'Spotify Wrapped: Fresh Finds Rock', 'All New Rock', 'Rock The World', 'Hangover Friendly Rock', 'Top of the Rock', 'life sucks…i need some rock!', "New Pop Picks"]} />
+                    <Playlist image='/images/playlists/apple.jpg' platform='Apple Music' items={["Apple Rock New Releases", "New Music Daily", "New in Rock", "Amped Up", "Breaking Rock", "The Best New Music (Shazam)", "New in Alternative", "Getting a Haircut"]} />
                     <Playlist image='/images/playlists/vevo.jpg' platform='Vevo' items={["Pure Rock", "Incoming Pop", "Incoming Rock", "Incoming Alt"]} />
                     <Playlist image='/images/playlists/amazon.jpg' platform='Amazon Music' items={["Brand New Music", "Breakthrough Rock", "Breakthrough Pop", "Best of What's New"]} />
                     <Playlist image='/images/playlists/youtube.jpg' platform='YouTube' items={["Rooftop Rock", "Indie Makeout", "The Razor's Edge"]} />
@@ -63,12 +64,31 @@ const HighlightsSection = () => {
                         <Image src={'/images/brands/calirosa.png'} alt='calirosa' width={127} height={58} />
 
                         <Image src={'/images/brands/rockband.webp'} alt='rockband' width={150} height={78} style={{ position: 'relative', top: 16 }} />
+
+
                     </div>
+
+                    <div className="py-3"></div>
+
+                    <div className="d-md-flex d-none justify-content-center align-items-center">
+
+                        <Image src={'/images/brands/bobatime.png'} alt='boba time' width={100} height={78} style={{ position: 'relative', top: 12 }} />
+                        <div style={{ width: 80 }}></div>
+                        <Image src={'/images/brands/loxclub.png'} alt='lox club' width={153} height={40} style={{ position: 'relative', top: 12 }} />
+
+                    </div>
+
+
 
                     <div className="d-md-none d-flex flex-column justify-content-between align-items-center">
                         <Image src={'/images/brands/inkbox.png'} alt='inkbox' width={155 * 1.5} height={29 * 1.5} />
                         <Image src={'/images/brands/calirosa.png'} alt='calirosa' width={127 * 1.5} height={58 * 1.5} />
                         <Image src={'/images/brands/rockband.webp'} alt='rockband' width={150 * 1.5} height={78 * 1.5} style={{ position: 'relative', top: 12 }} />
+                        <div className="py-2"></div>
+                        <Image src={'/images/brands/bobatime.png'} alt='bob time' width={100 * 1.5} height={78 * 1.5} style={{ position: 'relative', top: 12 }} />
+                        <div className="py-3"></div>
+                        <Image src={'/images/brands/loxclub.png'} alt='lox club' width={153} height={40} style={{ position: 'relative', top: 12 }} />
+
                     </div>
                 </Wrapper>
 

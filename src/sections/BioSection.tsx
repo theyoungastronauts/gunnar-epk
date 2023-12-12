@@ -22,7 +22,11 @@ const BioSection = (props: Props) => {
                         <>
 
                             <p className={styles.p}>
-                                A 21-year-old singer/songwriter hailing from Southern California, GUNNAR was just a kid when he discovered his life's purpose: delivering the kind of electrifying live show that leaves the audience enraptured. After getting his start playing guitar on a cherry-red Strat at the young age of seven. He began playing in a garage band and writing songs as a kid and years later set out on his first U.S. Tour, gaining a fast audience and the attention of pop mogul Scooter Braun who began managing him at age 16.  But when Covid hit and touring ground to a halt, the L.A.-based musician found himself questioning his entire identity as an artist. “I got thrown into the pop world as a kid, and none of the music I was making had my own vision in it,” says GUNNAR. “For a while I felt completely lost and disconnected from everything I'd done, to the point where I thought of quitting. But finally I realized I had to let go of the past and create a new future, and start making the music that I really love.”
+                                22-year-old singer/songwriter GUNNAR was just a kid when he discovered his life's purpose: delivering the kind of electrifying live show that leaves audiences enraptured.
+                            </p>
+
+                            <p className={styles.p}>
+                                At the age of 7, he began playing in a garage band with friends in Orange County. Now, the 22-year-old singer/songwriter has performed in front of sold-out crowds, opening for Maroon 5 and Gwen Stefani, and has amassed over 20 million global streams. His demos previously caught the attention of Grammy Award-winning producer Brendan O'Brien (AC/DC, Pearl Jam, The Killers), and together they created GUNNAR's full-length debut, Best Mistake (February 2023). After coming off his first European tour in 2023 opening for Maroon 5, GUNNAR released “Again & Again."  The record meant to bring the feeling and connection he made with fans during his 2023 live shows, to his recorded music. The song showcases pop influences in his voice against his alternative, mid-aughts garage rock edge.
                             </p>
 
                             <p className={styles.p}>Determined to unearth his true artistic voice, GUNNAR spent over a year collaborating with several of his friends from the L.A. music scene, eventually writing nearly 100 songs rooted in his explosive guitar work. When those demos caught the attention of Grammy Award-winning producer Brendan O'Brien (AC/DC, Pearl Jam, The Killers), GUNNAR headed into the studio to create his full-length debut, Best Mistake: an intimate yet wildly euphoric selection of songs, fully channeling the free-flowing energy and raw vitality of his live set for the first time ever.</p>
@@ -48,12 +52,11 @@ const BioSection = (props: Props) => {
                     ) : (
                         <>
                             <p className={styles.intro}>
-                                21-year-old singer/songwriter GUNNAR was just a kid when he discovered his life's purpose: delivering the kind of electrifying live show that leaves audiences enraptured.
+                                22-year-old singer/songwriter GUNNAR was just a kid when he discovered his life's purpose: delivering the kind of electrifying live show that leaves audiences enraptured.
                             </p>
 
                             <p className={styles.p}>
-                                He began playing guitar at age 7 and as a teenager embarked on his first U.S. tour, gaining a fast audience and the attention of pop mogul Scooter Braun who began managing him at age 17. Since then he has evolved from his past in pop music and is laser-focused on sharing his modern approach at rock.
-                                In 2022, his demos caught the attention of Grammy Award-winning producer Brendan O'Brien (AC/DC, Pearl Jam, The Killers), and together they created GUNNAR's full-length debut, Best Mistake (February 2023). The album encompasses a guitar-heavy sound echoing the eclectic mix of influences that form GUNNAR's musical DNA ('90s alt-rock, mid-aughts garage rock, singer-songwriters and classic country).  Already well on his way to rock stardom, GUNNAR has amassed 22M global streams of his music to date, 5.7M YouTube plays and 48M TikTok plays with a following of over 250,000 fans on the platform.
+                                At the age of 7, he began playing in a garage band with friends in Orange County. Now, the 22-year-old singer/songwriter has performed in front of sold-out crowds, opening for Maroon 5 and Gwen Stefani, and has amassed over 20 million global streams. His demos previously caught the attention of Grammy Award-winning producer Brendan O'Brien (AC/DC, Pearl Jam, The Killers), and together they created GUNNAR's full-length debut, Best Mistake (February 2023). After coming off his first European tour in 2023 opening for Maroon 5, GUNNAR released “Again & Again."  The record meant to bring the feeling and connection he made with fans during his 2023 live shows, to his recorded music. The song showcases pop influences in his voice against his alternative, mid-aughts garage rock edge.
                             </p>
 
                             <Link href={"/bio"} className="default-link">Read More</Link>

@@ -3,16 +3,21 @@ import Gallery from '../components/Gallery'
 import Link from 'next/link';
 
 const imageUrls = [
+    '/images/gallery/gallery-11.jpg',
+
+    '/images/gallery/gallery-13.jpg',
+    '/images/gallery/gallery-12.jpg',
+
     '/images/gallery/gallery-1.jpg',
-    '/images/gallery/gallery-7.jpg',
+    // '/images/gallery/gallery-7.jpg',
     '/images/gallery/gallery-2.jpg',
-    '/images/gallery/gallery-8.jpg',
+    // '/images/gallery/gallery-8.jpg',
     '/images/gallery/gallery-3.jpg',
     '/images/gallery/gallery-9.jpg',
     '/images/gallery/gallery-4.jpg',
     '/images/gallery/gallery-10.jpg',
-    '/images/gallery/gallery-5.jpg',
-    '/images/gallery/gallery-6.jpg?v=2',
+    // '/images/gallery/gallery-5.jpg',
+    // '/images/gallery/gallery-6.jpg?v=2',
 ];
 
 const downloadUrl = "https://firebasestorage.googleapis.com/v0/b/gunnar-gehl.appspot.com/o/GunnarHighResPhotos.zip?alt=media&token=4e477ceb-afd4-46e5-ba96-de22d24fed32"
