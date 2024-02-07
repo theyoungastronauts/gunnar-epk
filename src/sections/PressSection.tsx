@@ -4,6 +4,7 @@ import styles from '../../styles/sections/PressSection.module.scss'
 
 
 const pressItems = [
+
     {
         body: "Night after night, he felt empowered while delivering mesmerizing guitar riffs and truthful lyrics. He was the rock star he’d wanted to be, not the popstar others projected unto him.",
         from: "TMRW Magazine",
@@ -36,6 +37,14 @@ const pressItems = [
         body: "With an innate ability to evoke raw emotions through his music, GUNNAR has become a force to be reckoned with.",
         from: "Vingt Sept Magazine"
     },
+    {
+        body: "102.7 KIISFM Jingle Ball LA Interview",
+        open: "https://www.youtube.com/watch?v=l_x2oF-a730",
+    },
+    {
+        body: "#8 on People Magazine's list of Celebs at Jingle Ball LA",
+        open: "https://streaklinks.com/BznrpBlQUPfYmYrBPwt9jmha/https%3A%2F%2Fpeople.com%2Fjingle-ball-la-2023-portrait-studio-photos-8410054"
+    },
 
 
 ];
@@ -59,8 +68,11 @@ const PressSection = () => {
 
                     {pressItems.map((item, i) => {
                         return <div key={i} className={styles.pressItem}>
-                            <p>&ldquo;{item.body}&rdquo;</p>
-                            <cite>-{item.from}</cite>
+
+                            {item.body && item.from && <p>&ldquo;{item.body}&rdquo;</p>}
+                            {item.body && !item.from && <p>{item.body}</p>}
+                            {item.from && <cite>-{item.from}</cite>}
+                            {item.open && <cite><a href={item.open} target='_blank'>Open Link</a></cite>}
                         </div>
                     })}
 

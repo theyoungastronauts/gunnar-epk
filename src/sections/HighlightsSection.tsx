@@ -6,12 +6,13 @@ import Image from 'next/image'
 
 
 const highlightItems = [
+    "Performed for Jingle Ball LA and Jinge Ball DC",
     "Direct support for Maroon 5, Gwen Stefani, The Hu and Dead Poet Society",
-    "Completed three tours in North America playing over 50 dates",
+    "Completed three tours in North America and Europe playing over 50 dates",
     "Performed opening night of SXSW 2022",
     "Rock Band 4 video game placement for “Bad Idea”",
     "22M global streams and views across all platforms",
-    "Performed for Jingle Ball LA and Jinge Ball DC",
+    "Released single \"Again & Again\" Oct 2023"
 ]
 
 
