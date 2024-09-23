@@ -4,7 +4,12 @@ import styles from '../../styles/sections/PressSection.module.scss'
 
 
 const pressItems = [
-
+    {
+        image: "/images/gallery/gallery-13.jpg",
+    },
+    {
+        image: "/images/gallery/hypebeast.jpeg",
+    },
     {
         body: "Night after night, he felt empowered while delivering mesmerizing guitar riffs and truthful lyrics. He was the rock star he’d wanted to be, not the popstar others projected unto him.",
         from: "TMRW Magazine",
@@ -47,6 +52,7 @@ const pressItems = [
     },
 
 
+
 ];
 
 
@@ -67,14 +73,20 @@ const PressSection = () => {
                 <Gallery height={243}>
 
                     {pressItems.map((item, i) => {
-                        return <div key={i} className={styles.pressItem}>
+                        return <div key={i} className={item.image ? styles.pressItemImage : styles.pressItem}>
 
                             {item.body && item.from && <p>&ldquo;{item.body}&rdquo;</p>}
                             {item.body && !item.from && <p>{item.body}</p>}
                             {item.from && <cite>-{item.from}</cite>}
                             {item.open && <cite><a href={item.open} target='_blank'>Open Link</a></cite>}
+
+                            {item.image && <img src={item.image} />}
                         </div>
                     })}
+                    {/* <div key={-1} className={styles.pressItem}>
+
+                        <img src="/images/gallery/gallery-13.jpg" />
+                    </div> */}
 
 
                 </Gallery>

@@ -15,13 +15,14 @@ const HeroSection = () => {
                     <div className="py-1"></div>
 
                     <p className={styles.subtitle}>
-                        *2023 direct support for <span>Maroon 5</span> (UK & Europe), <span>Gwen Stefani</span>; Performed at KIIS FM&apos;s Jingle Ball 2023
+                        *Headline Tour Spring 2025; Direct support for <span>Jaden Hossler</span> (2024), <span>Maroon 5</span> and <span>Gwen Stefani</span> (2023); Performed at KIIS FM Jingle Ball 2023
+
                     </p>
 
                     <div className="py-2"></div>
 
                     <div className={styles.photo}>
-                        <Image src={'/images/hero-feb-2024.jpg'} alt='Hero Image' width={652} height={1079} />
+                        <Image src={'/images/hero-sept-2024.jpg'} alt='Hero Image' width={652} height={978} />
                     </div>
                 </Wrapper>
             </section>
