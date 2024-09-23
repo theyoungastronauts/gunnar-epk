@@ -32,11 +32,6 @@ const Home: NextPage = () => {
 
         <PressSection />
 
-        <div className="py-4"></div>
-        <Wrapper>
-
-          <img src="/images/gallery/gallery-13.jpg" style={{ width: '100%' }} />
-        </Wrapper>
 
         <div className="py-4"></div>
 

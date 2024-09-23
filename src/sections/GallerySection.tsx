@@ -8,7 +8,6 @@ const imageUrls = [
     '/images/gallery/sept-24-3.jpg',
     // '/images/gallery/gallery-11.jpg',
 
-    // '/images/gallery/gallery-13.jpg',
     // '/images/gallery/gallery-12.jpg',
 
     // '/images/gallery/gallery-1.jpg',
