@@ -9,7 +9,7 @@ const items = [
     {
         platform: "Instagram",
         icon: "/images/socials/instagram.svg",
-        count: "132k",
+        count: "117k",
         label: "followers",
         url: "https://www.instagram.com/gunnar/"
     },
@@ -23,7 +23,7 @@ const items = [
     {
         platform: "TikTok",
         icon: "/images/socials/tiktok.svg",
-        count: "250k",
+        count: "240k",
         label: "followers",
         url: "https://www.tiktok.com/@gunnargehl"
     },

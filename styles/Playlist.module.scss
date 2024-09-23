@@ -1,7 +1,7 @@
 @import "./colors.scss";
 
 .playlistCard {
-    height: 590px;
+    height: 610px;
     background-color: $colorText;
     padding: 16px;
     width: 318px;
@@ -11,13 +11,13 @@
         height: auto;
     }
 
-    h3{
+    h3 {
         color: $colorAccent;
         font-weight: 600;
     }
 
     p {
-        span{
+        span {
             color: #000;
             display: block;
             font-size: 14px;

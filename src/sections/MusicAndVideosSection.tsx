@@ -21,6 +21,7 @@ const MusicAndVideosSection = () => {
                     <MediaItem image={'/images/media/bad-idea.jpg'} title='Bad Idea' isVideo={true} url='https://www.youtube.com/watch?v=8tBjbSAwBxo&ab_channel=GUNNARVEVO' />
                     <MediaItem image={'/images/media/fuck-a-broken-heart.jpg'} title='Fuck a Broken Heart' isVideo={true} url='https://www.youtube.com/watch?v=qVGIvGx7Ojc&ab_channel=GUNNARVEVO' />
                     <MediaItem image={'/images/media/they-didnt-tell-me.jpg'} title="They Didn't Tell Me" isVideo={true} url='https://www.youtube.com/watch?v=oh-UEVpqT-k&ab_channel=GUNNARVEVO' />
+                    <MediaItem image={'/images/media/dirtyblond.jpg'} title="Dirty Blonde" isVideo={true} url='https://www.youtube.com/watch?v=v=111_oyTK8ng&ab_channel=GUNNARVEVO' />
                 </Wrapper>
 
 

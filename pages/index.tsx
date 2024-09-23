@@ -9,6 +9,7 @@ import HighlightsSection from '../src/sections/HighlightsSection'
 import MusicAndVideosSection from '../src/sections/MusicAndVideosSection'
 import SocialsSection from '../src/sections/SocialsSection'
 import ContactSection from '../src/sections/ContactSection'
+import Wrapper from '../src/components/Wrapper'
 
 const Home: NextPage = () => {
   return (
@@ -30,6 +31,12 @@ const Home: NextPage = () => {
         <div className="py-2"></div>
 
         <PressSection />
+
+        <div className="py-4"></div>
+        <Wrapper>
+
+          <img src="/images/gallery/gallery-13.jpg" style={{ width: '100%' }} />
+        </Wrapper>
 
         <div className="py-4"></div>
 
