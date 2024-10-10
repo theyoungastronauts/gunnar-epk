@@ -14,7 +14,7 @@ const MusicAndVideosSection = () => {
                     <h2>Music &amp; Videos</h2>
                     <div className="py-2"></div>
 
-                    <MediaItem image={'/images/media/dirtyblond.jpg'} title="Dirty Blonde" isVideo={false} url='https://open.spotify.com/album/7FI55AkxrAoh663kcB9VxD' />
+                    <MediaItem image={'/images/media/dirtyblond.jpg'} title="Dirty Blonde" isVideo={false} url='https://f1870e28.streaklinks.com/CJ0dyGu_P2IWY9ZkJQ_49Wi5/https%3A%2F%2Fsymphony.to%2Fgunnar%2Fdirty-blonde' />
                     <MediaItem image={'/images/media/dirtyblond-videov2.jpg'} title="Dirty Blonde" isVideo={true} url='https://www.youtube.com/watch?v=NTXATSv0-kw' />
 
                     <MediaItem image={'/images/media/dirtyblond-video.jpg'} title="Dirty Blonde (Live on Tour)" isVideo={true} url='https://www.youtube.com/watch?v=111_oyTK8ng' />
