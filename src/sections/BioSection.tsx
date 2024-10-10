@@ -52,11 +52,8 @@ const BioSection = (props: Props) => {
                     ) : (
                         <>
                             <p className={styles.intro}>
-                                22-year-old singer/songwriter GUNNAR was just a kid when he discovered his life's purpose: delivering the kind of electrifying live show that leaves audiences enraptured.
-                            </p>
 
-                            <p className={styles.p}>
-                                At the age of 7, he began playing in a garage band with friends in Orange County. Now, the 22-year-old singer/songwriter has performed in front of sold-out crowds, opening for Maroon 5 and Gwen Stefani, and has amassed over 20 million global streams. His demos previously caught the attention of Grammy Award-winning producer Brendan O'Brien (AC/DC, Pearl Jam, The Killers), and together they created GUNNAR's full-length debut, Best Mistake (February 2023). After coming off his first European tour in 2023 opening for Maroon 5, GUNNAR released “Again & Again."  The record meant to bring the feeling and connection he made with fans during his 2023 live shows, to his recorded music. The song showcases pop influences in his voice against his alternative, mid-aughts garage rock edge.
+                                23-year-old singer/songwriter GUNNAR was just a kid when he discovered his life's purpose: delivering the kind of electrifying live show that leaves audiences enraptured.  At the age of 7, he began playing in a garage band with friends in Orange County. Now, the singer/songwriter has performed in front of sold-out crowds - opening for Maroon 5, Gwen Stefani & Jaden Hossler - and has amassed over 20 million global streams. His work previously caught the attention of Grammy Award-winning producer Brendan O'Brien (AC/DC, Pearl Jam, The Killers), and together they created GUNNAR's full-length debut, Best Mistake (February 2023). Currently, Gunnar is anticipating an explosive 2025 with his first headline tour this upcoming March, coupled with the release of his EP created with KThrash (Machine Gun Kelly, Jelly Roll) in Spring 2025.
                             </p>
 
                             <Link href={"/bio"} className="default-link">Read More</Link>
