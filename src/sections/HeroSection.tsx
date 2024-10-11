@@ -15,7 +15,7 @@ const HeroSection = () => {
                     <div className="py-1"></div>
 
                     <p className={styles.subtitle}>
-                        *Headline Tour Spring 2025; Direct support for <span>Jaden Hossler</span> (2024), <span>Maroon 5</span> and <span>Gwen Stefani</span> (2023); Performed at KIIS FM Jingle Ball 2023
+                        *Headline Tour Spring 2025;<br /> Direct support for <span>Jaden Hossler</span> (2024), <span>Maroon 5</span> and <span>Gwen Stefani</span> (2023); Performed at KIIS FM Jingle Ball 2023
 
                     </p>
 
