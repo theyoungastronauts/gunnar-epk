@@ -3,6 +3,13 @@ import Gallery from '../components/Gallery'
 import Link from 'next/link';
 
 const imageUrls = [
+
+
+    '/images/gallery/aug-2025-a.jpg',
+    '/images/gallery/aug-2025-b.jpg',
+    '/images/gallery/aug-2025-c.jpg',
+    '/images/gallery/aug-2025-d.jpg',
+    '/images/gallery/aug-2025-e.jpg',
     '/images/gallery/sept-24-1.jpg',
     '/images/gallery/sept-24-2.jpg',
     '/images/gallery/sept-24-3.jpg',

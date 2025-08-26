@@ -14,6 +14,19 @@ const MusicAndVideosSection = () => {
                     <h2>Music &amp; Videos</h2>
                     <div className="py-2"></div>
 
+                    <MediaItem image={'/images/sunfaded.jpg'} title="Sunfaded" isVideo={false} url='https://symphony.to/gunnar/sun-faded' />
+                    <MediaItem image={'/images/media/artofstayingalive.jpg'} title="Art of Staying Alive" isVideo={true} url='https://www.youtube.com/watch?v=q3mX5hF6uxE' />
+                    <MediaItem image={'/images/media/bitter.jpg'} title="Bitter" isVideo={true} url='https://www.youtube.com/watch?v=EkRid8T5_0I' />
+
+                    <MediaItem image={'/images/bitter.jpg'} title="Bitter" isVideo={false} url='https://symphony.to/gunnar/bitter' />
+                    <MediaItem image={'/images/media/upsidedown.jpg'} title="Upside Down" isVideo={true} url='https://www.youtube.com/watch?v=9TYdFtjHiac' />
+                    <MediaItem image={'/images/upsidedown.jpg'} title="Upside Down" isVideo={false} url='https://symphony.to/gunnar/upside-down' />
+                    <MediaItem image={'/images/media/thisisnow.jpg'} title="This Is Now" isVideo={true} url='https://www.youtube.com/watch?v=51OB9AU4Cy4' />
+
+                    <MediaItem image={'/images/thisisnow.jpg'} title="This Is Now" isVideo={false} url='https://symphony.to/gunnar/this-is-now' />
+
+                    {/* 
+
                     <MediaItem image={'/images/media/dirtyblond.jpg'} title="Dirty Blonde" isVideo={false} url='https://f1870e28.streaklinks.com/CJ0dyGu_P2IWY9ZkJQ_49Wi5/https%3A%2F%2Fsymphony.to%2Fgunnar%2Fdirty-blonde' />
                     <MediaItem image={'/images/media/dirtyblond-videov2.jpg'} title="Dirty Blonde" isVideo={true} url='https://www.youtube.com/watch?v=NTXATSv0-kw' />
 
@@ -24,7 +37,7 @@ const MusicAndVideosSection = () => {
                     <MediaItem image={'/images/media/cinnamon.jpg'} title='Cinnamon' isVideo={true} url='https://www.youtube.com/watch?v=AyoImuvM3Ns&ab_channel=GUNNARVEVO' />
                     <MediaItem image={'/images/media/bad-idea.jpg'} title='Bad Idea' isVideo={true} url='https://www.youtube.com/watch?v=8tBjbSAwBxo&ab_channel=GUNNARVEVO' />
                     <MediaItem image={'/images/media/fuck-a-broken-heart.jpg'} title='Fuck a Broken Heart' isVideo={true} url='https://www.youtube.com/watch?v=qVGIvGx7Ojc&ab_channel=GUNNARVEVO' />
-                    <MediaItem image={'/images/media/they-didnt-tell-me.jpg'} title="They Didn't Tell Me" isVideo={true} url='https://www.youtube.com/watch?v=oh-UEVpqT-k&ab_channel=GUNNARVEVO' />
+                    <MediaItem image={'/images/media/they-didnt-tell-me.jpg'} title="They Didn't Tell Me" isVideo={true} url='https://www.youtube.com/watch?v=oh-UEVpqT-k&ab_channel=GUNNARVEVO' /> */}
                 </Wrapper>
 
 
