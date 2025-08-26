@@ -25,7 +25,7 @@ const MusicAndVideosSection = () => {
 
                     <MediaItem image={'/images/thisisnow.jpg'} title="This Is Now" isVideo={false} url='https://symphony.to/gunnar/this-is-now' />
 
-                    {/* 
+
 
                     <MediaItem image={'/images/media/dirtyblond.jpg'} title="Dirty Blonde" isVideo={false} url='https://f1870e28.streaklinks.com/CJ0dyGu_P2IWY9ZkJQ_49Wi5/https%3A%2F%2Fsymphony.to%2Fgunnar%2Fdirty-blonde' />
                     <MediaItem image={'/images/media/dirtyblond-videov2.jpg'} title="Dirty Blonde" isVideo={true} url='https://www.youtube.com/watch?v=NTXATSv0-kw' />
@@ -37,7 +37,7 @@ const MusicAndVideosSection = () => {
                     <MediaItem image={'/images/media/cinnamon.jpg'} title='Cinnamon' isVideo={true} url='https://www.youtube.com/watch?v=AyoImuvM3Ns&ab_channel=GUNNARVEVO' />
                     <MediaItem image={'/images/media/bad-idea.jpg'} title='Bad Idea' isVideo={true} url='https://www.youtube.com/watch?v=8tBjbSAwBxo&ab_channel=GUNNARVEVO' />
                     <MediaItem image={'/images/media/fuck-a-broken-heart.jpg'} title='Fuck a Broken Heart' isVideo={true} url='https://www.youtube.com/watch?v=qVGIvGx7Ojc&ab_channel=GUNNARVEVO' />
-                    <MediaItem image={'/images/media/they-didnt-tell-me.jpg'} title="They Didn't Tell Me" isVideo={true} url='https://www.youtube.com/watch?v=oh-UEVpqT-k&ab_channel=GUNNARVEVO' /> */}
+                    <MediaItem image={'/images/media/they-didnt-tell-me.jpg'} title="They Didn't Tell Me" isVideo={true} url='https://www.youtube.com/watch?v=oh-UEVpqT-k&ab_channel=GUNNARVEVO' />
                 </Wrapper>
 
 
