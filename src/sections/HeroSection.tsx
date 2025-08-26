@@ -22,7 +22,7 @@ const HeroSection = () => {
                     <div className="py-2"></div>
 
                     <div className={styles.photo}>
-                        <Image src={'/images/hero-sept-2024.jpg'} alt='Hero Image' width={652} height={978} />
+                        <Image src={'/images/hero-aug-2025.jpg'} alt='Hero Image' width={652} height={815} />
                     </div>
                 </Wrapper>
             </section>
